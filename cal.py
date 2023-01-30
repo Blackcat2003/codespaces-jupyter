@@ -31,6 +31,7 @@ while True:
     print("2.Subtract")
     print("3.Multiply")
     print("4.Divide")
+    print("5.Exit")
     opt=int(input("Enter the choice number:"))
 
     if opt == 1:
@@ -51,13 +52,14 @@ while True:
     elif opt == 4:
         a = int( input("Enter First Number: "))  
         b = int( input("Enter Second Number: "))  
-        div(a, b)
+        div(a, b)    
 
-    elif users_choice == 5:  
+    elif opt == 5:  
         break  
       
     else:  
         print( "Please enter a valid Input from the list")
+
 
 
         
